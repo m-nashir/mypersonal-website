@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500&display=swap'); 
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/****** HEADER *****/
+/* NAVIGATION */
+#header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 8% 0 8%;
+}
+#logo{
+    color: #fff;
+    font-size: 25px;
+}
+#logo span{
+    color: teal;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 12px 18px;
+}
+.nav ul li a{
+    color: #fff;
+    cursor: pointer;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #f0f0f0;
+    color: #f0f0f0;
+    padding-bottom: 7px;
+}
+.btn{
+    padding: 12px 26px;
+    background-color: teal;
+    color: #fff;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: rgba(0, 128, 128, 0.7);
+}
