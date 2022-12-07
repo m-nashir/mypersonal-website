@@ -103,7 +103,7 @@
 }
 .about-text h1{
     color: teal;
-    margin-bottom: 5px;
+    font-size: 30px;
 }
 .about-text h5{
     margin-bottom: 15px;
@@ -121,4 +121,40 @@
 .button-view:hover{
     background-color: teal;
     color: white;
+}
+
+/* SERVICES */
+.services{
+    background-color: rgba(0, 128, 128, 0.7);
+    width: 100%;
+    padding: 60px;
+}
+.title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    text-align: center;
+}
+.card{
+    padding: 45px 12px;
+    background-color: rgba(0, 128, 128, 0.3);
+    margin: 15px;
+    border-radius: 10px;
+}
+.card i{
+    font-size: 45px;
+}
+.card h3{
+    margin: 8px 0;
+}
+.btn-details{
+    border: 2px solid #fff;
+}
+.btn-details:hover{
+    background-color: #fff;
+    color: teal;
 }
