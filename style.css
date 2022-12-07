@@ -9,6 +9,7 @@
     list-style: none;
     outline: none;
     border: none;
+    transition: .2s;
 }
 
 /****** HEADER *****/
@@ -53,8 +54,9 @@
     border-radius: 50px;
     cursor: pointer;
 }
-.btn:hover{
+.btn-subs:hover{
     background-color: rgba(0, 128, 128, 0.7);
+    transform: scale(1.1);
 }
 
 /* HERO BANNER */
@@ -162,17 +164,18 @@
 /* CONTACT SECTION */
 .contact{
     width: 100%;
-    height: 300px;
+    height: 290px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px 0;
 }
 .contact p {
     font-size: 30px;
     color: teal;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .btn-contact{
     background-color: #fff;
@@ -184,4 +187,48 @@
 .btn-contact:hover{
     background-color: teal;
     color: #fff;
+    transform: scale(1.1);
+}
+
+
+/*** FOOTER ***/
+#footer{
+    width: 100%;
+    background-color: rgba(0, 128, 128, 0.7);
+    height: 320px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer p:nth-child(1-2){
+    font-size: 15px;
+}
+.social{
+    display: flex;
+    margin-top: 15px
+}
+.social a{
+    margin: 0 10px;
+}
+.social a i{
+    font-size: 24px;
+    padding: 10px;
+    background-color: #fff;
+    color: teal;
+    border-radius: 50px;
+}
+.social a i:hover{
+    background-color: teal;
+    color: #fff;
+    transform: scale(1.2);
+}
+#footer p:last-child{
+   position: absolute;
+   bottom: 5px;
+   font-size: 14px;
+   color:black;
+   font-weight: 600;
 }
