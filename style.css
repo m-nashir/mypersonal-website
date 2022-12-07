@@ -19,7 +19,6 @@
     background-image: url(/assets/bg5.jpg);
     background-position: center;
     background-size: cover;
-
 }
 .nav{
     display: flex;
@@ -52,6 +51,7 @@
     background-color: teal;
     color: #fff;
     border-radius: 50px;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: rgba(0, 128, 128, 0.7);
@@ -81,8 +81,44 @@
     position: absolute;
     right: 2px;
     top: 2px;
-    cursor: pointer;
 }
 #btn-submit:hover{
     background-color: rgba(0, 128, 128, 0.7);
+}
+
+
+/****** MAIN *****/
+
+.about{
+    display: flex;
+    margin: 80px 8%;
+}
+.pict-about{
+    margin-right: 24px;
+    border-radius: 12px;
+}
+.about-text{
+    text-align: justify;
+    margin: 8px 0;
+}
+.about-text h1{
+    color: teal;
+    margin-bottom: 5px;
+}
+.about-text h5{
+    margin-bottom: 15px;
+}
+.about-text p{
+    text-indent: 35px;
+}
+.button-view{
+    background-color: transparent;
+    border: 2px solid teal;
+    margin-top: 30px;
+    color: teal;
+    font-weight: 600;
+}
+.button-view:hover{
+    background-color: teal;
+    color: white;
 }
