@@ -7,6 +7,8 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    outline: none;
+    border: none;
 }
 
 /****** HEADER *****/
@@ -52,5 +54,35 @@
     border-radius: 50px;
 }
 .btn:hover{
+    background-color: rgba(0, 128, 128, 0.7);
+}
+
+/* HERO BANNER */
+.hero-banner{
+    text-align: center;
+    transform: translateY(70%);
+    color: #000;
+}
+.hero-banner h1{
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 18px;;
+}
+.box-newsletter{
+    position: relative;
+    display: inline-block;
+}
+#email{
+    width:430px;
+    padding: 14px 15px;
+    border-radius: 50px;
+}
+#btn-submit{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+#btn-submit:hover{
     background-color: rgba(0, 128, 128, 0.7);
 }
